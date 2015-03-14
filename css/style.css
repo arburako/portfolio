@@ -1272,7 +1272,7 @@
 	}
 
 /************************************/
-/* =case study summaries                    */
+/* =CASE STUDY SUMMARIES                   */
 /************************************/
 
 
@@ -1544,6 +1544,60 @@
 	    right: 30px;
 	    bottom: 30px;
 	  }
+	}
+
+/************************************/
+/* =FOOTER             */
+/************************************/
+
+	#footer { 
+		padding: 70px 0; 
+		text-align: center;
+		background-color: #DEE2E5;
+	}
+
+	#footer .social li { 
+		margin: 0 30px 30px;
+		display: inline-block; 
+	}
+
+	#footer .social li:hover { 
+		cursor: pointer; 
+	}
+	#footer .social li a { 
+		color: #8c9199; 
+	}
+
+	#footer .social li a i { 
+		font-size: 45px;
+		-webkit-transition: all 0.4s ease;
+		-moz-transition: all 0.4s ease;
+		transition: all 0.4s ease; 
+	}
+
+	#footer .social li:hover a i.fa-twitter { color: #3ab6e9; }
+	#footer .social li:hover a i.fa-facebook { color: #3b589a; }
+	#footer .social li:hover a i.fa-pinterest { color: #CB2026; }
+	#footer .social li:hover a i.fa-linkedin { color: #017eb4; }
+	#footer .social li:hover a i.fa-google-plus { color: #d43934; }
+	#footer .social li:hover a i.fa-instagram { color: #4e7ca0; }
+
+	#footer .social li small { 
+		display: block;
+		text-transform: uppercase;
+		margin-top: 15px;
+		color: #8b8b8b;
+		-webkit-transition: all 0.4s ease;
+		-moz-transition: all 0.4s ease;
+		transition: all 0.4s ease; 
+	}
+
+	#footer .social li:hover small { color: #3c3547; }
+	#footer .copyright { margin-top: 50px; }
+
+	#footer .copyright p {
+		font-size: 11px;
+		color: #a6acb5;
 	}
 
 /************************************/
